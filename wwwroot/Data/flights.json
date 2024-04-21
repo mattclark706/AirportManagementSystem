@@ -1,0 +1,1202 @@
+[
+    {
+        "FlightNumber": 1293,
+        "DepartureTime": "01:12",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "03:42",
+        "ArrivalAirport": "Berlin",
+        "ArrivalAirportCode": "TXL",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 9267,
+        "DepartureTime": "02:14",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "06:14",
+        "ArrivalAirport": "Lanzarote",
+        "ArrivalAirportCode": "ACE",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 2056,
+        "DepartureTime": "02:27",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "06:27",
+        "ArrivalAirport": "Athens",
+        "ArrivalAirportCode": "ATH",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 7540,
+        "DepartureTime": "02:30",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "05:30",
+        "ArrivalAirport": "Rome",
+        "ArrivalAirportCode": "FCO",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 6919,
+        "DepartureTime": "04:11",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "07:11",
+        "ArrivalAirport": "Rome",
+        "ArrivalAirportCode": "FCO",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 3320,
+        "DepartureTime": "04:25",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "08:25",
+        "ArrivalAirport": "Lanzarote",
+        "ArrivalAirportCode": "ACE",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 5537,
+        "DepartureTime": "04:28",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "07:28",
+        "ArrivalAirport": "Rome",
+        "ArrivalAirportCode": "FCO",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 7059,
+        "DepartureTime": "05:15",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "08:15",
+        "ArrivalAirport": "Rome",
+        "ArrivalAirportCode": "FCO",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 2985,
+        "DepartureTime": "06:03",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "08:33",
+        "ArrivalAirport": "Paris",
+        "ArrivalAirportCode": "CDG",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 3198,
+        "DepartureTime": "06:28",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "09:28",
+        "ArrivalAirport": "Barcelona",
+        "ArrivalAirportCode": "BCN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 4490,
+        "DepartureTime": "07:19",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "10:19",
+        "ArrivalAirport": "Barcelona",
+        "ArrivalAirportCode": "BCN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 7367,
+        "DepartureTime": "07:26",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "08:26",
+        "ArrivalAirport": "Dublin",
+        "ArrivalAirportCode": "DUB",
+        "Duration": "PT1H0M"
+    },
+    {
+        "FlightNumber": 5651,
+        "DepartureTime": "07:33",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "08:33",
+        "ArrivalAirport": "Dublin",
+        "ArrivalAirportCode": "DUB",
+        "Duration": "PT1H0M"
+    },
+    {
+        "FlightNumber": 3189,
+        "DepartureTime": "07:36",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "08:36",
+        "ArrivalAirport": "Dublin",
+        "ArrivalAirportCode": "DUB",
+        "Duration": "PT1H0M"
+    },
+    {
+        "FlightNumber": 2359,
+        "DepartureTime": "07:57",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "10:57",
+        "ArrivalAirport": "Rome",
+        "ArrivalAirportCode": "FCO",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 3355,
+        "DepartureTime": "07:59",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "10:29",
+        "ArrivalAirport": "Paris",
+        "ArrivalAirportCode": "CDG",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 8692,
+        "DepartureTime": "08:18",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "10:48",
+        "ArrivalAirport": "Paris",
+        "ArrivalAirportCode": "CDG",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 5874,
+        "DepartureTime": "08:31",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "11:01",
+        "ArrivalAirport": "Paris",
+        "ArrivalAirportCode": "CDG",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 6605,
+        "DepartureTime": "08:37",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "12:37",
+        "ArrivalAirport": "Athens",
+        "ArrivalAirportCode": "ATH",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 5475,
+        "DepartureTime": "08:48",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "10:48",
+        "ArrivalAirport": "London",
+        "ArrivalAirportCode": "LHR",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 6010,
+        "DepartureTime": "09:19",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "13:19",
+        "ArrivalAirport": "Athens",
+        "ArrivalAirportCode": "ATH",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 7839,
+        "DepartureTime": "09:21",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "11:21",
+        "ArrivalAirport": "Amsterdam",
+        "ArrivalAirportCode": "AMS",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 7468,
+        "DepartureTime": "09:41",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "13:41",
+        "ArrivalAirport": "Lanzarote",
+        "ArrivalAirportCode": "ACE",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 4019,
+        "DepartureTime": "09:53",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "12:53",
+        "ArrivalAirport": "Copenhagen",
+        "ArrivalAirportCode": "CPH",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 3092,
+        "DepartureTime": "09:55",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "12:25",
+        "ArrivalAirport": "Madrid",
+        "ArrivalAirportCode": "MAD",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 6652,
+        "DepartureTime": "10:13",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "12:43",
+        "ArrivalAirport": "Paris",
+        "ArrivalAirportCode": "CDG",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 1253,
+        "DepartureTime": "11:11",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "14:11",
+        "ArrivalAirport": "Copenhagen",
+        "ArrivalAirportCode": "CPH",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 8247,
+        "DepartureTime": "11:44",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "12:44",
+        "ArrivalAirport": "Dublin",
+        "ArrivalAirportCode": "DUB",
+        "Duration": "PT1H0M"
+    },
+    {
+        "FlightNumber": 2820,
+        "DepartureTime": "12:40",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "15:10",
+        "ArrivalAirport": "Paris",
+        "ArrivalAirportCode": "CDG",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 4385,
+        "DepartureTime": "12:40",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "16:40",
+        "ArrivalAirport": "Athens",
+        "ArrivalAirportCode": "ATH",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 2739,
+        "DepartureTime": "12:48",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "15:48",
+        "ArrivalAirport": "Lisbon",
+        "ArrivalAirportCode": "LIS",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 2534,
+        "DepartureTime": "13:53",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "16:53",
+        "ArrivalAirport": "Copenhagen",
+        "ArrivalAirportCode": "CPH",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 9588,
+        "DepartureTime": "14:12",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "18:12",
+        "ArrivalAirport": "Athens",
+        "ArrivalAirportCode": "ATH",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 2796,
+        "DepartureTime": "14:45",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "16:45",
+        "ArrivalAirport": "London",
+        "ArrivalAirportCode": "LHR",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 4462,
+        "DepartureTime": "15:33",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "19:33",
+        "ArrivalAirport": "Athens",
+        "ArrivalAirportCode": "ATH",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 6294,
+        "DepartureTime": "16:20",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "19:20",
+        "ArrivalAirport": "Copenhagen",
+        "ArrivalAirportCode": "CPH",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 9176,
+        "DepartureTime": "16:23",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "18:23",
+        "ArrivalAirport": "London",
+        "ArrivalAirportCode": "LHR",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 6810,
+        "DepartureTime": "16:37",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "17:37",
+        "ArrivalAirport": "Dublin",
+        "ArrivalAirportCode": "DUB",
+        "Duration": "PT1H0M"
+    },
+    {
+        "FlightNumber": 2081,
+        "DepartureTime": "16:41",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "19:11",
+        "ArrivalAirport": "Paris",
+        "ArrivalAirportCode": "CDG",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 1176,
+        "DepartureTime": "16:49",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "19:19",
+        "ArrivalAirport": "Madrid",
+        "ArrivalAirportCode": "MAD",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 1223,
+        "DepartureTime": "16:58",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "19:58",
+        "ArrivalAirport": "Rome",
+        "ArrivalAirportCode": "FCO",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 7854,
+        "DepartureTime": "17:04",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "20:04",
+        "ArrivalAirport": "Lisbon",
+        "ArrivalAirportCode": "LIS",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 2676,
+        "DepartureTime": "17:10",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "20:10",
+        "ArrivalAirport": "Copenhagen",
+        "ArrivalAirportCode": "CPH",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 7344,
+        "DepartureTime": "17:38",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "20:38",
+        "ArrivalAirport": "Lisbon",
+        "ArrivalAirportCode": "LIS",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 2638,
+        "DepartureTime": "17:48",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "21:48",
+        "ArrivalAirport": "Athens",
+        "ArrivalAirportCode": "ATH",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 7695,
+        "DepartureTime": "17:54",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "20:54",
+        "ArrivalAirport": "Lisbon",
+        "ArrivalAirportCode": "LIS",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 2506,
+        "DepartureTime": "18:18",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "21:18",
+        "ArrivalAirport": "Rome",
+        "ArrivalAirportCode": "FCO",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 9037,
+        "DepartureTime": "18:24",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "20:24",
+        "ArrivalAirport": "Amsterdam",
+        "ArrivalAirportCode": "AMS",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 4940,
+        "DepartureTime": "18:29",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "21:29",
+        "ArrivalAirport": "Lisbon",
+        "ArrivalAirportCode": "LIS",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 1434,
+        "DepartureTime": "18:52",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "21:52",
+        "ArrivalAirport": "Lisbon",
+        "ArrivalAirportCode": "LIS",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 5034,
+        "DepartureTime": "19:10",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "20:10",
+        "ArrivalAirport": "Dublin",
+        "ArrivalAirportCode": "DUB",
+        "Duration": "PT1H0M"
+    },
+    {
+        "FlightNumber": 8900,
+        "DepartureTime": "20:46",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "23:46",
+        "ArrivalAirport": "Barcelona",
+        "ArrivalAirportCode": "BCN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 1905,
+        "DepartureTime": "21:06",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "23:36",
+        "ArrivalAirport": "Madrid",
+        "ArrivalAirportCode": "MAD",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 3535,
+        "DepartureTime": "21:40",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "00:40",
+        "ArrivalAirport": "Barcelona",
+        "ArrivalAirportCode": "BCN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 4263,
+        "DepartureTime": "21:41",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "00:41",
+        "ArrivalAirport": "Barcelona",
+        "ArrivalAirportCode": "BCN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 8981,
+        "DepartureTime": "22:00",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "00:30",
+        "ArrivalAirport": "Berlin",
+        "ArrivalAirportCode": "TXL",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 9656,
+        "DepartureTime": "23:01",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "03:01",
+        "ArrivalAirport": "Lanzarote",
+        "ArrivalAirportCode": "ACE",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 4267,
+        "DepartureTime": "23:15",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "03:15",
+        "ArrivalAirport": "Athens",
+        "ArrivalAirportCode": "ATH",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 7335,
+        "DepartureTime": "23:17",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "01:47",
+        "ArrivalAirport": "Madrid",
+        "ArrivalAirportCode": "MAD",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 4178,
+        "DepartureTime": "23:52",
+        "DepartureAirport": "Manchester",
+        "DepartureAirportCode": "MAN",
+        "ArrivalTime": "02:52",
+        "ArrivalAirport": "Barcelona",
+        "ArrivalAirportCode": "BCN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 5281,
+        "DepartureTime": "21:50",
+        "DepartureAirport": "Berlin",
+        "DepartureAirportCode": "TXL",
+        "ArrivalTime": "00:20",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 5235,
+        "DepartureTime": "22:30",
+        "DepartureAirport": "Amsterdam",
+        "DepartureAirportCode": "AMS",
+        "ArrivalTime": "00:30",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 3805,
+        "DepartureTime": "23:48",
+        "DepartureAirport": "Dublin",
+        "DepartureAirportCode": "DUB",
+        "ArrivalTime": "00:48",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT1H0M"
+    },
+    {
+        "FlightNumber": 4825,
+        "DepartureTime": "23:12",
+        "DepartureAirport": "Rome",
+        "DepartureAirportCode": "FCO",
+        "ArrivalTime": "02:12",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 9541,
+        "DepartureTime": "23:47",
+        "DepartureAirport": "Copenhagen",
+        "DepartureAirportCode": "CPH",
+        "ArrivalTime": "02:47",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 3484,
+        "DepartureTime": "23:49",
+        "DepartureAirport": "Copenhagen",
+        "DepartureAirportCode": "CPH",
+        "ArrivalTime": "02:49",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 8979,
+        "DepartureTime": "01:27",
+        "DepartureAirport": "Amsterdam",
+        "DepartureAirportCode": "AMS",
+        "ArrivalTime": "03:27",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 2545,
+        "DepartureTime": "02:43",
+        "DepartureAirport": "Paris",
+        "DepartureAirportCode": "CDG",
+        "ArrivalTime": "05:13",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 3439,
+        "DepartureTime": "02:56",
+        "DepartureAirport": "Paris",
+        "DepartureAirportCode": "CDG",
+        "ArrivalTime": "05:26",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 8482,
+        "DepartureTime": "03:16",
+        "DepartureAirport": "Copenhagen",
+        "DepartureAirportCode": "CPH",
+        "ArrivalTime": "06:16",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 5988,
+        "DepartureTime": "05:05",
+        "DepartureAirport": "Amsterdam",
+        "DepartureAirportCode": "AMS",
+        "ArrivalTime": "07:05",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 2680,
+        "DepartureTime": "04:37",
+        "DepartureAirport": "Paris",
+        "DepartureAirportCode": "CDG",
+        "ArrivalTime": "07:07",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 7940,
+        "DepartureTime": "04:11",
+        "DepartureAirport": "Lisbon",
+        "DepartureAirportCode": "LIS",
+        "ArrivalTime": "07:11",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 3544,
+        "DepartureTime": "06:15",
+        "DepartureAirport": "Dublin",
+        "DepartureAirportCode": "DUB",
+        "ArrivalTime": "07:15",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT1H0M"
+    },
+    {
+        "FlightNumber": 8343,
+        "DepartureTime": "05:27",
+        "DepartureAirport": "London",
+        "DepartureAirportCode": "LHR",
+        "ArrivalTime": "07:27",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 8621,
+        "DepartureTime": "05:18",
+        "DepartureAirport": "Madrid",
+        "DepartureAirportCode": "MAD",
+        "ArrivalTime": "07:48",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 5399,
+        "DepartureTime": "04:51",
+        "DepartureAirport": "Rome",
+        "DepartureAirportCode": "FCO",
+        "ArrivalTime": "07:51",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 3944,
+        "DepartureTime": "04:06",
+        "DepartureAirport": "Athens",
+        "DepartureAirportCode": "ATH",
+        "ArrivalTime": "08:06",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 7717,
+        "DepartureTime": "04:23",
+        "DepartureAirport": "Athens",
+        "DepartureAirportCode": "ATH",
+        "ArrivalTime": "08:23",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 5268,
+        "DepartureTime": "06:29",
+        "DepartureAirport": "London",
+        "DepartureAirportCode": "LHR",
+        "ArrivalTime": "08:29",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 7897,
+        "DepartureTime": "04:29",
+        "DepartureAirport": "Lanzarote",
+        "DepartureAirportCode": "ACE",
+        "ArrivalTime": "08:29",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 9167,
+        "DepartureTime": "04:44",
+        "DepartureAirport": "Athens",
+        "DepartureAirportCode": "ATH",
+        "ArrivalTime": "08:44",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 4313,
+        "DepartureTime": "07:12",
+        "DepartureAirport": "London",
+        "DepartureAirportCode": "LHR",
+        "ArrivalTime": "09:12",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 5129,
+        "DepartureTime": "08:41",
+        "DepartureAirport": "Dublin",
+        "DepartureAirportCode": "DUB",
+        "ArrivalTime": "09:41",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT1H0M"
+    },
+    {
+        "FlightNumber": 8828,
+        "DepartureTime": "05:56",
+        "DepartureAirport": "Athens",
+        "DepartureAirportCode": "ATH",
+        "ArrivalTime": "09:56",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 2327,
+        "DepartureTime": "07:20",
+        "DepartureAirport": "Barcelona",
+        "DepartureAirportCode": "BCN",
+        "ArrivalTime": "10:20",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 2182,
+        "DepartureTime": "07:37",
+        "DepartureAirport": "Copenhagen",
+        "DepartureAirportCode": "CPH",
+        "ArrivalTime": "10:37",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 9182,
+        "DepartureTime": "09:25",
+        "DepartureAirport": "London",
+        "DepartureAirportCode": "LHR",
+        "ArrivalTime": "11:25",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 5548,
+        "DepartureTime": "10:44",
+        "DepartureAirport": "Dublin",
+        "DepartureAirportCode": "DUB",
+        "ArrivalTime": "11:44",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT1H0M"
+    },
+    {
+        "FlightNumber": 8538,
+        "DepartureTime": "11:11",
+        "DepartureAirport": "Dublin",
+        "DepartureAirportCode": "DUB",
+        "ArrivalTime": "12:11",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT1H0M"
+    },
+    {
+        "FlightNumber": 7183,
+        "DepartureTime": "09:58",
+        "DepartureAirport": "Berlin",
+        "DepartureAirportCode": "TXL",
+        "ArrivalTime": "12:28",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 4287,
+        "DepartureTime": "11:04",
+        "DepartureAirport": "London",
+        "DepartureAirportCode": "LHR",
+        "ArrivalTime": "13:04",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 3092,
+        "DepartureTime": "12:04",
+        "DepartureAirport": "Madrid",
+        "DepartureAirportCode": "MAD",
+        "ArrivalTime": "14:34",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 3586,
+        "DepartureTime": "12:06",
+        "DepartureAirport": "Paris",
+        "DepartureAirportCode": "CDG",
+        "ArrivalTime": "14:36",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 2870,
+        "DepartureTime": "11:23",
+        "DepartureAirport": "Athens",
+        "DepartureAirportCode": "ATH",
+        "ArrivalTime": "15:23",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 3958,
+        "DepartureTime": "12:18",
+        "DepartureAirport": "Lanzarote",
+        "DepartureAirportCode": "ACE",
+        "ArrivalTime": "16:18",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 8820,
+        "DepartureTime": "14:12",
+        "DepartureAirport": "Berlin",
+        "DepartureAirportCode": "TXL",
+        "ArrivalTime": "16:42",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 7350,
+        "DepartureTime": "14:13",
+        "DepartureAirport": "Paris",
+        "DepartureAirportCode": "CDG",
+        "ArrivalTime": "16:43",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 5453,
+        "DepartureTime": "14:29",
+        "DepartureAirport": "Berlin",
+        "DepartureAirportCode": "TXL",
+        "ArrivalTime": "16:59",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 4633,
+        "DepartureTime": "15:02",
+        "DepartureAirport": "Amsterdam",
+        "DepartureAirportCode": "AMS",
+        "ArrivalTime": "17:02",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 5006,
+        "DepartureTime": "15:05",
+        "DepartureAirport": "Amsterdam",
+        "DepartureAirportCode": "AMS",
+        "ArrivalTime": "17:05",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 6606,
+        "DepartureTime": "14:33",
+        "DepartureAirport": "Lisbon",
+        "DepartureAirportCode": "LIS",
+        "ArrivalTime": "17:33",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 5493,
+        "DepartureTime": "14:39",
+        "DepartureAirport": "Barcelona",
+        "DepartureAirportCode": "BCN",
+        "ArrivalTime": "17:39",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 6163,
+        "DepartureTime": "13:51",
+        "DepartureAirport": "Lanzarote",
+        "DepartureAirportCode": "ACE",
+        "ArrivalTime": "17:51",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 9135,
+        "DepartureTime": "14:55",
+        "DepartureAirport": "Rome",
+        "DepartureAirportCode": "FCO",
+        "ArrivalTime": "17:55",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 5650,
+        "DepartureTime": "15:26",
+        "DepartureAirport": "Madrid",
+        "DepartureAirportCode": "MAD",
+        "ArrivalTime": "17:56",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 2008,
+        "DepartureTime": "15:25",
+        "DepartureAirport": "Rome",
+        "DepartureAirportCode": "FCO",
+        "ArrivalTime": "18:25",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 2946,
+        "DepartureTime": "16:09",
+        "DepartureAirport": "Madrid",
+        "DepartureAirportCode": "MAD",
+        "ArrivalTime": "18:39",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 4236,
+        "DepartureTime": "16:19",
+        "DepartureAirport": "Berlin",
+        "DepartureAirportCode": "TXL",
+        "ArrivalTime": "18:49",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 2013,
+        "DepartureTime": "16:28",
+        "DepartureAirport": "Madrid",
+        "DepartureAirportCode": "MAD",
+        "ArrivalTime": "18:58",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 3690,
+        "DepartureTime": "18:21",
+        "DepartureAirport": "Dublin",
+        "DepartureAirportCode": "DUB",
+        "ArrivalTime": "19:21",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT1H0M"
+    },
+    {
+        "FlightNumber": 2112,
+        "DepartureTime": "17:25",
+        "DepartureAirport": "Madrid",
+        "DepartureAirportCode": "MAD",
+        "ArrivalTime": "19:55",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    },
+    {
+        "FlightNumber": 3428,
+        "DepartureTime": "16:03",
+        "DepartureAirport": "Lanzarote",
+        "DepartureAirportCode": "ACE",
+        "ArrivalTime": "20:03",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT4H0M"
+    },
+    {
+        "FlightNumber": 1624,
+        "DepartureTime": "18:16",
+        "DepartureAirport": "Amsterdam",
+        "DepartureAirportCode": "AMS",
+        "ArrivalTime": "20:16",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 9474,
+        "DepartureTime": "18:26",
+        "DepartureAirport": "London",
+        "DepartureAirportCode": "LHR",
+        "ArrivalTime": "20:26",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H0M"
+    },
+    {
+        "FlightNumber": 1494,
+        "DepartureTime": "18:27",
+        "DepartureAirport": "Copenhagen",
+        "DepartureAirportCode": "CPH",
+        "ArrivalTime": "21:27",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 2709,
+        "DepartureTime": "20:39",
+        "DepartureAirport": "Dublin",
+        "DepartureAirportCode": "DUB",
+        "ArrivalTime": "21:39",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT1H0M"
+    },
+    {
+        "FlightNumber": 4219,
+        "DepartureTime": "20:08",
+        "DepartureAirport": "Barcelona",
+        "DepartureAirportCode": "BCN",
+        "ArrivalTime": "23:08",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 8885,
+        "DepartureTime": "20:11",
+        "DepartureAirport": "Copenhagen",
+        "DepartureAirportCode": "CPH",
+        "ArrivalTime": "23:11",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT3H0M"
+    },
+    {
+        "FlightNumber": 3720,
+        "DepartureTime": "21:29",
+        "DepartureAirport": "Madrid",
+        "DepartureAirportCode": "MAD",
+        "ArrivalTime": "23:59",
+        "ArrivalAirport": "Manchester",
+        "ArrivalAirportCode": "MAN",
+        "Duration": "PT2H30M"
+    }
+]

@@ -1,0 +1,44 @@
+﻿@page
+@model AirportManagementSystem.Pages.ArrivalsBoardModel
+@{
+	ViewData["Title"] = "Arrivals";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/departureBoard.css" />
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a asp-page="/Index">Home</a></li>
+            <li><a asp-page="/ArrivalsBoard">Second Page</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <h1 class="flight-header">@ViewData["Title"]</h1>
+    <div id="clockDisplay" class="clock-style">Current Time: 00:00</div>
+    <table class="departure-board">
+        <thead>
+            <tr>
+                <th>Flight Number</th>
+                <th>From</th>
+                <th>Arrival Time</th>
+                <th>Gate</th>
+                <th>Status</th>
+                <th>Arrival</th>
+                <th>Grounded</th>
+            </tr>
+        </thead>
+        <tbody id="arrivalsBoard">
+            <!-- Populated in the js -->
+        </tbody>
+    </table>
+    <script src="~/js/flightBoard.js"></script>
+</body>
+</html>
