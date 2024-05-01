@@ -1,4 +1,5 @@
 ﻿function updateFlightBoard() {
+    console.log("begin departureboard update")
     fetch('/api/departures')
         .then(response => response.json())
         .then(flights => {
@@ -30,10 +31,11 @@
                 cell7.textContent = flight.grounded ? "Yes" : "No";
             });
         })
-        .catch(error => console.error('Error fetching updated flights:', error));
+    console.log("end departureboard update")
 }
 
 function updateArrivalsBoard() {
+    console.log("begin arrivalboard update")
     fetch('/api/arrivals')
         .then(response => response.json())
         .then(flights => {
@@ -50,7 +52,7 @@ function updateArrivalsBoard() {
                 cell2.textContent = `${flight.departureAirport} (${flight.departureAirportCode})`;
 
                 let cell3 = row.insertCell(2);
-                cell3.textContent = flight.departureTime;
+                cell3.textContent = flight.arrivalTime;
 
                 let cell4 = row.insertCell(3);
                 cell4.textContent = flight.gate === 0 ? "N/A" : flight.gate;
@@ -65,7 +67,50 @@ function updateArrivalsBoard() {
                 cell7.textContent = flight.grounded ? "Yes" : "No";
             });
         })
-        .catch(error => console.error('Error fetching updated flights:', error));
+    console.log("end arrivalboard update")
+}
+function updateOperationsBoard() {
+    fetch('/api/operations')
+        .then(response => response.json())
+        .then(gates => {
+            const operationsBoard = document.getElementById('operationsBoard');
+            operationsBoard.innerHTML = ''; // Clear existing flight information
+
+            gates.forEach(gate => {
+                let row = operationsBoard.insertRow(-1); // Append row to the end of the table body
+
+                let cell1 = row.insertCell(0);
+                cell1.textContent = gate.gateNumber;
+
+                let cell2 = row.insertCell(1);
+                cell2.textContent = gate.inUse ? "Yes" : "No";
+
+                let cell3 = row.insertCell(2);
+                if (gate.flight != null) {
+                    if (gate.flight.departureAirport == "Manchester") {
+                        cell3.textContent = "Departure";
+                    }
+                    else {
+                        cell3.textContent = "Arrival";
+                    }
+                }
+
+                let cell4 = row.insertCell(3);
+                if (gate.flight != null) {
+                    cell4.textContent = gate.flight.flightNumber;
+                }
+
+                let cell5 = row.insertCell(4);
+                if (gate.flight != null) {
+                    if (gate.flight.departureAirport == "Manchester") {
+                        cell5.textContent = gate.flight.departureTime;
+                    }
+                    else {
+                        cell5.textContent = gate.flight.arrivalTime;
+                    }
+                }
+            });
+        })
 }
 function updateClock() {
     fetch('/api/clock')
@@ -76,10 +121,16 @@ function updateClock() {
         })
 }
 
+function updates() {
+    updateClock()
+    updateFlightBoard()
+    updateArrivalsBoard()
+    updateOperationsBoard()
+}
+
 // Initial update and set time until next update at 1 seconds
 updateFlightBoard();
 updateArrivalsBoard();
+updateOperationsBoard();
 updateClock();
-setInterval(updateFlightBoard, 1000);
-setInterval(updateArrivalsBoard, 1000);
-setInterval(updateClock, 1000);
+setInterval(updates, 1000);

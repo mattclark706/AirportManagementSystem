@@ -1,7 +1,7 @@
 ﻿@page
-@model IndexModel
+@model AirportManagementSystem.Pages.AirportOpsModel
 @{
-    ViewData["Title"] = "Departures";
+	ViewData["Title"] = "Airport Operations";
 }
 
 <!DOCTYPE html>
@@ -29,19 +29,18 @@
     <table class="departure-board">
         <thead>
             <tr>
-                <th>Flight Number</th>
-                <th>Destination</th>
-                <th>Departure Time</th>
-                <th>Gate</th>
-                <th>Status</th>
-                <th>Departure</th>
-                <th>Grounded</th>
+                <th>Gates</th>
+                <th>InUse</th>
+                <th>Arrival or Departure</th>
+                <th>FlightNumber</th>
+                <th>Flight Arrival/Departure Time</th>
             </tr>
         </thead>
-        <tbody id="flightBoard">
+        <tbody id="operationsBoard">
             <!-- made in javascript -->
         </tbody>
     </table>
     <script src="~/js/flightBoard.js"></script>
 </body>
 </html>
+

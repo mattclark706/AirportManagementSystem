@@ -15,6 +15,17 @@ namespace AirportManagementSystem.Utilities
         {
             var json = File.ReadAllText(filePath);
             allFlights = JsonSerializer.Deserialize<List<Flight>> (json) ?? new List<Flight>();
+            foreach (Flight flight in allFlights)
+            {
+                if (flight.DepartureAirport == "Manchester")
+                {
+                    flight.Grounded = true;
+                }
+                else
+                {
+                    flight.Grounded = false;
+                }
+            }
             departures = LoadDepartures();
             arrivals = LoadArrivals();
         }
@@ -71,15 +82,15 @@ namespace AirportManagementSystem.Utilities
 
         public static List<Flight> GetArrivalsFlights()
         {
-            /*// Identify flights that have already arrived to remove them
+            // Identify flights that have already arrived to remove them
             var flightsToRemove = new List<Flight>();
             foreach (var flight in arrivals)
             {
                 var flightTime = DateTime.ParseExact(flight.ArrivalTime, "HH:mm", CultureInfo.InvariantCulture);
                 var flightDate = Clock.CurrentTime.Date + flightTime.TimeOfDay;
-                if (flightDate > Clock.CurrentTime)
+                if (flightDate < Clock.CurrentTime)
                 {
-                    flight.Grounded = false;
+                    flight.Grounded = true;
                     flightsToRemove.Add(flight);
                 }
             }
@@ -88,7 +99,7 @@ namespace AirportManagementSystem.Utilities
             foreach (var flight in flightsToRemove)
             {
                 arrivals.Remove(flight);
-            }*/
+            }
 
             // Filter and return flights
             return arrivals
@@ -98,7 +109,7 @@ namespace AirportManagementSystem.Utilities
                     var flightDate = Clock.CurrentTime.Date + flightTime.TimeOfDay;
 
                     return flightDate >= Clock.CurrentTime &&
-                           flightDate <= Clock.CurrentTime.AddHours(5); // Time ahead that flights will be shown
+                           flightDate <= Clock.CurrentTime.AddHours(3); // Time ahead that flights will be shown
                 })
                 .OrderBy(flight => flight.ArrivalTime)
                 .Take(10) // Maximum number of flights to be shown

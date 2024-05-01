@@ -32,7 +32,6 @@ GateService.fillAllGates();
 
 app.MapGet("/api/departures", () =>
 {
-    //var flights = FlightService.GetFilteredFlights(Path.Combine(app.Environment.WebRootPath, "Data/flights.json"));
     var flights = FlightService.GetDeparturesFlights();
     GateService.AssignGates(flights);
     return flights;
@@ -41,8 +40,14 @@ app.MapGet("/api/departures", () =>
 app.MapGet("/api/arrivals", () =>
 {
     var flights = FlightService.GetArrivalsFlights();
-    //GateService.AssignGates(flights);
+    GateService.AssignGates(flights);
     return flights;
+});
+
+app.MapGet("/api/operations", () =>
+{
+    var gates = GateService.getGates();
+    return gates;
 });
 
 app.MapGet("/api/clock", () => new { time = Clock.currentTime.ToString("HH:mm") });
