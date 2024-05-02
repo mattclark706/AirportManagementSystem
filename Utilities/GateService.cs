@@ -23,7 +23,6 @@ namespace AirportManagementSystem.Utilities
             // set gate to empty if flight has left
             foreach (Gates gate in allGates)
             {
-                //Console.WriteLine(gate.GateNumber);
                 if (gate.Flight != null)
                 {
                     if (gate.Flight.DepartureAirport == "Manchester")

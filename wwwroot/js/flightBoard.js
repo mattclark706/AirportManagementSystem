@@ -1,5 +1,4 @@
 ﻿function updateFlightBoard() {
-    //console.log("begin departureboard update")
     fetch('/api/departures')
         .then(response => response.json())
         .then(flights => {
@@ -25,11 +24,9 @@
                 cell5.textContent = flight.status;
             });
         })
-   //console.log("end departureboard update")
 }
 
 function updateArrivalsBoard() {
-    //console.log("begin arrivalboard update")
     fetch('/api/arrivals')
         .then(response => response.json())
         .then(flights => {
@@ -55,7 +52,6 @@ function updateArrivalsBoard() {
                 cell5.textContent = flight.status;
             });
         })
-    //console.log("end arrivalboard update")
 }
 function updateOperationsBoard() {
     fetch('/api/operations')
