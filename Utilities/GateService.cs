@@ -1,6 +1,7 @@
 ﻿using AirportManagementSystem.Models;
 using Microsoft.JSInterop;
 using System.Globalization;
+using System.Runtime.CompilerServices;
 
 namespace AirportManagementSystem.Utilities
 {
@@ -16,11 +17,13 @@ namespace AirportManagementSystem.Utilities
                 allGates.Add(new Gates(i));
             }
         }
+        [MethodImpl(MethodImplOptions.Synchronized)]
         public static void AssignGates(List<Flight> flights)
         {
+            // set gate to empty if flight has left
             foreach (Gates gate in allGates)
             {
-                Console.WriteLine(gate.GateNumber);
+                //Console.WriteLine(gate.GateNumber);
                 if (gate.Flight != null)
                 {
                     if (gate.Flight.DepartureAirport == "Manchester")
@@ -41,6 +44,7 @@ namespace AirportManagementSystem.Utilities
                     }
                 }
             }
+            // assign relavent flights to empty gates
             foreach (Flight flight in flights)
             {
                 if (flight.Gate == null)
@@ -60,6 +64,7 @@ namespace AirportManagementSystem.Utilities
             }
             getStatus(flights);
         }
+        // set flight status based on gate and time remaining to flight departure
         public static void getStatus(List<Flight> flights)
         {
             foreach (Flight flight in flights)

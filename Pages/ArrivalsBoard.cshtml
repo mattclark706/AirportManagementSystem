@@ -10,11 +10,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
-    <link rel="stylesheet" href="~/css/departureBoard.css" />
+    <link rel="stylesheet" href="~/css/arrivalBoard.css" />
 </head>
 <header>
     <nav>
-        <ul>
+        <ul class="navigation">
             <li><a asp-page="/Index">Departure Board</a></li>
             <li><a asp-page="/ArrivalsBoard">Arrival Board</a></li>
             <li><a asp-page="/AirportOps">Airport Operations</a></li>
@@ -32,8 +32,6 @@
                 <th>Arrival Time</th>
                 <th>Gate</th>
                 <th>Status</th>
-                <th>Arrival</th>
-                <th>Grounded</th>
             </tr>
         </thead>
         <tbody id="arrivalsBoard">

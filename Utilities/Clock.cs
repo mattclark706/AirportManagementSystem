@@ -2,6 +2,7 @@
 {
     public static DateTime currentTime;
 
+    //clock constructer
     static Clock()
     {
         currentTime = DateTime.Now;
@@ -14,6 +15,7 @@
 
     public static DateTime CurrentTime => currentTime;
 
+    // method for increasing time
     public static void AdvanceTime(TimeSpan duration)
     {
         currentTime = currentTime.Add(duration);

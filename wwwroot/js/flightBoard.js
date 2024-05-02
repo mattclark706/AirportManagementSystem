@@ -1,5 +1,5 @@
 ﻿function updateFlightBoard() {
-    console.log("begin departureboard update")
+    //console.log("begin departureboard update")
     fetch('/api/departures')
         .then(response => response.json())
         .then(flights => {
@@ -23,19 +23,13 @@
 
                 let cell5 = row.insertCell(4);
                 cell5.textContent = flight.status;
-
-                let cell6 = row.insertCell(5);
-                cell6.textContent = `${flight.departureAirport} (${flight.departureAirportCode})`;
-
-                let cell7 = row.insertCell(6);
-                cell7.textContent = flight.grounded ? "Yes" : "No";
             });
         })
-    console.log("end departureboard update")
+   //console.log("end departureboard update")
 }
 
 function updateArrivalsBoard() {
-    console.log("begin arrivalboard update")
+    //console.log("begin arrivalboard update")
     fetch('/api/arrivals')
         .then(response => response.json())
         .then(flights => {
@@ -59,15 +53,9 @@ function updateArrivalsBoard() {
 
                 let cell5 = row.insertCell(4);
                 cell5.textContent = flight.status;
-
-                let cell6 = row.insertCell(5);
-                cell6.textContent = `${flight.arrivalAirport} (${flight.arrivalAirportCode})`;
-
-                let cell7 = row.insertCell(6);
-                cell7.textContent = flight.grounded ? "Yes" : "No";
             });
         })
-    console.log("end arrivalboard update")
+    //console.log("end arrivalboard update")
 }
 function updateOperationsBoard() {
     fetch('/api/operations')

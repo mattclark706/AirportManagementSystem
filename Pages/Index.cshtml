@@ -13,10 +13,8 @@
     <link rel="stylesheet" href="~/css/departureBoard.css" />
 </head>
 <header>
-    <div class="header-content">
-        <h1>Airport Management System</h1>
         <nav>
-            <ul>
+            <ul class="navigation">
                 <li><a asp-page="/Index">Departures Board</a></li>
                 <li><a asp-page="/ArrivalsBoard">Arrivals Board</a></li>
                 <li><a asp-page="/AirportOps">Airport Operations</a></li>
@@ -34,8 +32,6 @@
                 <th>Departure Time</th>
                 <th>Gate</th>
                 <th>Status</th>
-                <th>Departure</th>
-                <th>Grounded</th>
             </tr>
         </thead>
         <tbody id="flightBoard">

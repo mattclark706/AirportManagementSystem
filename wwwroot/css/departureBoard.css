@@ -1,9 +1,31 @@
-﻿body {
+﻿/* the header */
+.navigation {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    padding: 10px;
+    display: block;
+}
+
+/* the whole page */
+body {
     font-family: 'Courier New', monospace;
     background-color: #0b0c0c;
     color: #ffffff;
+    background-image: url('../Images/plane1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+/* the board */
 .departure-board {
     width: 100%;
     text-align: left;
@@ -11,32 +33,41 @@
     border-collapse: collapse;
 }
 
+/* common styling for table headers and cells */
 .departure-board th, .departure-board td {
     padding: 8px;
     border: 1px solid #777;
 }
 
+/* specific styling for table header */
 .departure-board th {
     background-color: #1a1a1a;
 }
 
+/* specific styling for cells */
 .departure-board td {
     background-color: #333;
 }
 
+/* styling for every other table row */
 .departure-board tr:nth-child(even) td {
     background-color: #252525;
 }
 
+/* styling title */
 .flight-header {
-    text-align: center;
-    margin: 20px 0;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 50px;
+    color: #ffd800;
 }
 
-.clock-style{
-    font-size: 20px;
+/* styling for clock */
+.clock-style {
+    font-size: 30px;
     font-weight: bold;
-    color: #333;
-    text-align: center;
-    margin-top:10px;
+    color: #ffd800;
+    text-align: left;
+    margin-top: 10px;
 }

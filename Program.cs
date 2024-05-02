@@ -30,12 +30,14 @@ var timeAdvance = Task.Run(async () =>
 FlightService.LoadFlights(Path.Combine(app.Environment.WebRootPath, "Data/flights.json"));
 GateService.fillAllGates();
 
+// api for returning all departures
 app.MapGet("/api/departures", () =>
 {
     var flights = FlightService.GetDeparturesFlights();
     GateService.AssignGates(flights);
     return flights;
 });
+
 
 app.MapGet("/api/arrivals", () =>
 {
